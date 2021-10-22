@@ -7,5 +7,18 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  var pronoun = ["the", "our"];
+  var adj = ["great", "big"];
+  var noun = ["jogger", "racoon"];
+  var dom = [".cl", ".cu", ".vz"];
+
+  for (var prono of pronoun) {
+    for (var adjetivo of adj) {
+      for (var non of noun) {
+        for (var dominio of dom) {
+          console.log(prono + adjetivo + non + dominio);
+        }
+      }
+    }
+  }
 };
